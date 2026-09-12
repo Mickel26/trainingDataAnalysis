@@ -37,7 +37,21 @@ patterns between strength training and on-water performance?
 
 ## Project Structure
 
-<wklejona struktura folderów z góry>
+garmin-training-analytics/
+├── data/
+│   ├── raw/              # oryginalne pliki JSON z Garmina (gitignored — prywatne dane)
+│   └── processed/        # baza SQLite po przetworzeniu (gitignored)
+├── sql/
+│   └── queries.sql       # zapytania SQL użyte w analizie
+├── src/
+│   ├── etl.py            # Extract-Load: JSON -> SQLite
+│   └── analysis.py       # funkcje pomocnicze do agregacji/statystyk
+├── notebooks/
+│   └── analysis.ipynb    # główna analiza + wizualizacje
+├── visuals/              # zapisane wykresy (do wklejenia w README)
+├── requirements.txt
+├── .gitignore
+└── README.md
 
 ## Setup
 
