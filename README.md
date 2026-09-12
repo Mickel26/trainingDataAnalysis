@@ -36,7 +36,7 @@ patterns between strength training and on-water performance?
 - Are there identifiable training blocks (base, intensity, taper)?
 
 ## Project Structure
-
+```
 garmin-training-analytics/
 ├── data/
 │   ├── raw/              # oryginalne pliki JSON z Garmina (gitignored — prywatne dane)
@@ -52,7 +52,7 @@ garmin-training-analytics/
 ├── requirements.txt
 ├── .gitignore
 └── README.md
-
+```
 ## Setup
 
 \`\`\`bash
