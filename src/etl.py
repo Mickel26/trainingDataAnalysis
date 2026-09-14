@@ -35,3 +35,9 @@ def create_db(db_path):
     return conn
 
 conn = create_db("data\\processed\\activities.db")
+
+def insert_activity(conn, activity):
+    conn.execute('''INSERT INTO activities (id, name, type) VALUES (?, ?, ?)''', (activity["activityId"], activity["name"], activity["activityType"]))
+    conn.commit()
+    
+insert_activity(conn, all_activities[0])
