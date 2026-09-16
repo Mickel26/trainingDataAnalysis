@@ -63,6 +63,14 @@ pip install -r requirements.txt
 
 Training load peaked in July 2026, which matches my preparation period for the Polish National Championships. Heart rate zone analysis showed I spend around 60% of my training time in Zones 1-2, consistent with a polarized training approach common in endurance sports. Indoor rowing sessions also showed a noticeably higher average heart rate (142 bpm) than on-water rowing (124 bpm), likely due to the more continuous nature of ergometer training compared to the variable pacing of water sessions.
 
+**Note:** Garmin only started tracking `training_load` and detailed heart rate 
+zone data in November 2025. Charts and analysis involving these metrics 
+therefore cover the November 2025 - September 2026 period only.
+
+![Monthly Training Load](visuals/monthly_training_load.png)
+
+![Heart Rate Zones](visuals/hr_zones.png)
+
 ## Author
 
 Mikołaj Filka
