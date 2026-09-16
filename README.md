@@ -55,13 +55,13 @@ garmin-training-analytics/
 ```
 ## Setup
 
-\`\`\`bash
+```bash
 pip install -r requirements.txt
-\`\`\`
+```
 
 ## Findings
 
-_(to be added as the analysis progresses)_
+Training load peaked in July 2026, which matches my preparation period for the Polish National Championships. Heart rate zone analysis showed I spend around 60% of my training time in Zones 1-2, consistent with a polarized training approach common in endurance sports. Indoor rowing sessions also showed a noticeably higher average heart rate (142 bpm) than on-water rowing (124 bpm), likely due to the more continuous nature of ergometer training compared to the variable pacing of water sessions.
 
 ## Author
 
