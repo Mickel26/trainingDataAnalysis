@@ -69,7 +69,7 @@ therefore cover the November 2025 - September 2026 period only.
 
 ![Monthly Training Load](visuals/monthly_training_load.png)
 
-![Heart Rate Zones](visuals/hr_zones.png)
+![Heart Rate Zones](visuals/time_in_zones.png)
 
 ## Author
 
