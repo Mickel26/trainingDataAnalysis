@@ -19,6 +19,8 @@ patterns between strength training and on-water performance?
 - **SQL** (SQLite) - data storage and aggregation queries
 - **Matplotlib / Seaborn** - visualization
 - **Jupyter Notebook** - analysis and reporting
+- **Power Query (M)** — data import and transformation (ODBC connection, type correction, filtering, unpivoting)
+- **Power BI** — interactive dashboard with dynamic filtering
 
 ## Pipeline
 
@@ -39,7 +41,7 @@ patterns between strength training and on-water performance?
 ```
 garmin-training-analytics/
 ├── data/
-│   ├── raw/              # oryginalne pliki JSON z Garmina (gitignored — prywatne dane)
+│   ├── raw/              # oryginalne pliki JSON z Garmina (gitignored)
 │   └── processed/        # baza SQLite po przetworzeniu (gitignored)
 ├── sql/
 │   └── queries.sql       # zapytania SQL użyte w analizie
@@ -70,6 +72,16 @@ therefore cover the November 2025 - September 2026 period only.
 ![Monthly Training Load](visuals/monthly_training_load.png)
 
 ![Heart Rate Zones](visuals/time_in_zones.png)
+
+## Interactive Dashboard
+
+As a second way of exploring this data, I built an interactive Power BI 
+dashboard, connecting to the same SQLite database via an ODBC driver 
+(since Power BI has no native SQLite connector). The dashboard includes 
+the same core insights as the Python analysis, but with dynamic filtering 
+by activity type.
+
+![Power BI Dashboard](visuals/training_dashboard.pdf)
 
 ## Author
 
