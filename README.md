@@ -81,7 +81,7 @@ dashboard, connecting to the same SQLite database via an ODBC driver
 the same core insights as the Python analysis, but with dynamic filtering 
 by activity type.
 
-![Power BI Dashboard](visuals/training_dashboard.pdf)
+![Power BI Dashboard](visuals/training_dashboard.png)
 
 ## Author
 
