@@ -21,6 +21,7 @@ patterns between strength training and on-water performance?
 - **Jupyter Notebook** - analysis and reporting
 - **Power Query (M)** — data import and transformation (ODBC connection, type correction, filtering, unpivoting)
 - **Power BI** — interactive dashboard with dynamic filtering
+- **Power Apps** — simple data-entry app for logging new training sessions
 
 ## Pipeline
 
@@ -82,6 +83,16 @@ the same core insights as the Python analysis, but with dynamic filtering
 by activity type.
 
 ![Power BI Dashboard](visuals/training_dashboard.png)
+
+## Training Log App
+
+To complement the dashboard with a way of collecting new data, I built a 
+simple Power Apps canvas app — a form for logging training sessions 
+(date, activity type, RPE, and notes). Submitted entries are saved to an 
+Excel table on OneDrive, which could be periodically imported into the 
+main SQLite database.
+
+![Power Apps Form](visuals/power_apps_form.png)
 
 ## Author
 
